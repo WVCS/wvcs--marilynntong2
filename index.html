@@ -4,11 +4,13 @@
    
       <h1> Marilynn Tong's Website
    
-          <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="art.html">Art</a></li>
-  <li><a href="appquiz.html">Apps</a></li>
-</ul>
+          <ul class="nav">
+    <li class="nav"> <a href="index.html"> Home </a></li>
+    <li class="nav"> <a href="art.html"> Art </a></li>
+    <li class="nav"> <a href="#appquiz.html"> Apps </a></li>
+    <li class="nav"> <a href="#meme.html"> Memes </a></li>
+
+  </ul>
         
       <h1> <img src="Artifact.png" alt="my artifact">
         <iframe src="https://scratch.mit.edu/projects/427151487/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -36,24 +38,37 @@
   background-color: #333;
 }
 
-li {
+li.nav {
   float: left;
+  background-color: pink;
+  display: inline;
 }
-
 li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 10px 20px;
   text-decoration: none;
+  color: black;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+li a:hover {
+  background-color: salmon;
 }
 
-.active {
-  background-color: #4CAF50;
+ul.circle {
+  list-style-type: circle;
+  float: right;
+  color: salmon;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  background-color: pink;
+  top: 0;
 }
    <style>
       
