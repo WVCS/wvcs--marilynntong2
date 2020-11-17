@@ -1,5 +1,49 @@
- h1 {
+  body {
+  background-color: purple;
+}
+
+     h1 {
   color: magenta;
   text-align: center;
   font-size: 100px;
+}
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.nav {
+  float: left;
+  background-color: pink;
+  display: inline;
+}
+li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: salmon;
+}
+
+ul.circle {
+  list-style-type: circle;
+  float: right;
+  color: salmon;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  background-color: pink;
+  top: 0;
 }
